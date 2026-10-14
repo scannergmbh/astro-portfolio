@@ -1,0 +1,62 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/custom.css';
+---
+
+<Layout>
+  <header class="header">
+    <a class="logo" href="/">portfolio.</a>
+    <nav>
+      <a href="#about">Über mich</a>
+      <a href="#projects">Projekte</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <p class="eyebrow">DESIGN · IDEEN · DIGITALES</p>
+      <h1>Hallo, ich bin Alex...</h1>
+      <p class="intro">
+        Ich gestalte digitale Erlebnisse, die klar und einfach sind.
+      </p>
+      <p class="description">
+        Willkommen in meinem persönlichen Portfolio.
+        Hier zeige ich meine Arbeit, meine Ideen und Projekte.
+      </p>
+
+      <div class="actions">
+        <a class="button primary" href="#projects">
+          Projekte ansehen ↗
+        </a>
+        <a class="button secondary" href="mailto:hallo@example.com">
+          Kontakt
+        </a>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Ausgewählte Projekte</h2>
+
+      <div class="project-grid">
+        <article class="project project-one">
+          <span>01 / WEBDESIGN</span>
+          <h3>Projekt Eins</h3>
+          <p>Ein klarer und moderner Webauftritt.</p>
+        </article>
+
+        <article class="project project-two">
+          <span>02 / KONZEPT</span>
+          <h3>Projekt Zwei</h3>
+          <p>Eine Idee, reduziert auf das Wesentliche.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 · Mein Portfolio</p>
+    <a href="#top">Nach oben ↑</a>
+  </footer>
+</Layout>
+
+
