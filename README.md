@@ -1,5 +1,5 @@
 # Astro Starter Kit: Basics
-
+Astro Build Workflow eingerichtet
 ```sh
 npm create astro@latest -- --template basics
 ```
